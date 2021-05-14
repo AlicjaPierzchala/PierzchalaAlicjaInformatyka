@@ -36,18 +36,23 @@ def Nazwafunkcji():
 def Funkcjaargumentów (zmienna):
     print("podałam zmienną która wynosi = ", zmienna)
 
-a = 8
-b = 1
-c = 3
+a = 2
+b = 2
+n = 0
+srednia = 0
+for i in range (1,2):
+    if a % 2 == 0:
+        print ("a jest liczba parzysta")
+    if b % 2 == 0: 
+            print ("b jest liczba parzysta")
+            n = a + b 
+            i = i + 1
+            print ("wielkosc i = ", i)
+            srednia = n / i
+            print("suma= ",n )
+            print("srednia = ", srednia)
+    else :
+        print("Prodram nie zadziała, jesli a i b jest liczną nieparzystą !!!")
+        
 
-for i in range (0,3):
-    #if a % 2 == 0:
-    n = a + b +c 
-    i = i + 1
-    print ("wielkosc i = ", i)
-    srednia = n / 3
-  #  else:
-  #  break
-
-print("suma= ",n )
-print("srednia = ", srednia)    
+    
