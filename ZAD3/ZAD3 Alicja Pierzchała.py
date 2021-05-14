@@ -5,13 +5,37 @@ Created on Sat May  8 12:19:14 2021
 @author: rawsk
 """
 
+
+# a = 7
+# b = 1
+# suma = 0
+# ile = 0
+# srednia = 0
+# liczba = 0
+
+# for ile in range (0,2):
+#     if a % 2 == 0:
+#         liczba = a
+#         suma = suma + liczba
+#         print("suma = ",suma)
+#         ile = ile + 1
+#     #continue 
+#         liczba + liczba + 1
+#         liczba <= b: 
+#         srednia = suma / ile
+#             print("Średnia = ", srednia)
+  
+# print("liczba", liczba)
+# print("suma= " )
+# print("srednia = ", srednia)    
+
 def Nazwafunkcji():
     print("wynik funkcji")
     print("końcowy wynik")
-    
+
 def Funkcjaargumentów (zmienna):
     print("podałam zmienną która wynosi = ", zmienna)
-    
+
 a = 8
 b = 1
 c = 3
@@ -24,6 +48,6 @@ for i in range (0,3):
     srednia = n / 3
   #  else:
   #  break
-   
+
 print("suma= ",n )
 print("srednia = ", srednia)    
