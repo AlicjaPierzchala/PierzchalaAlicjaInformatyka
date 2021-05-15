@@ -44,8 +44,38 @@ Created on Sat May 15 10:09:25 2021
 # print("c"  ,c)
 
 
-zmienna = input ("wprowadż liczbę i nacisnij enter    ")
-print("wprowadzono", zmienna)
-c = int(zmienna) + 2
-print("c"  ,c)
+# zmienna = input ("wprowadż liczbę i nacisnij enter    ")
+# print("wprowadzono", zmienna)
+# c = int(zmienna) + 2
+# print("c"  ,c)
+
+
+
+class Student:
+    def __init__(self, imie, nazwisko, pesel):
+        self. imie = imie
+        self.nazwisko = nazwisko
+        self.pesel = pesel
+        self.ocena = 5
+    def przedstaw_sie(self):
+            print(f"jestem{self.imie} {self.nazwisko}")
+    def wyswietlNrPesel(self):
+        return self.__pesel
+            
+obStudent1 = Student("Anna", "Kowalska", 123456)
+obStudent2 = Student("Roman", "Nowak" 56789)
+
+obStudent1.przedstaw_sie()
+obStudent2.przedstaw_sie()
+print("ocena studenta 1 =", obStudent1.ocena)
+obStudent1.ocena = 6
+print("ocena studenta 1 = ", obStudent1.ocena)
+print("ocena studenta 2 = ", obStudent2.ocena)
+
+print(obStudent1.__pesel)
+
+        
+        
+
+
 
