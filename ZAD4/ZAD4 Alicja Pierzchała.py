@@ -6,13 +6,25 @@ Created on Fri May 14 20:35:17 2021
 """
 
 
-x = [41, 50, 1, 8]
+x = [5, 4, 3, 2, 9, 13, 1, 7]
 print("zawartoć x = ",x)
 n = 4
-max = x[0]
 koszyk = 0
-i = 1
+i = 0
 for i in range(0, n):
+    # działa tylko w jednym przebiegu sortowania
+      # if x[i]>x[i+1]:
+      #   print("i", i)
+      #   koszyk = x[i+1]
+      #   print("koszyk",koszyk)
+      #   x[i+1] = x[i]
+      #   print("x1",x[i+1])
+      #   print("x0",x[i])
+      #   x[i] = koszyk
+      #   print("x0",x[i])
+      #   print("x1",x[i+1])
+      #   print("wartoci posortowane x =",  x)   
+    
     if x[0]>x[1]:
         koszyk = x[1]
         print("koszyk",koszyk)
